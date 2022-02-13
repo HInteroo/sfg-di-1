@@ -6,13 +6,13 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by jt on 12/28/19.
  */
-@Controller //added Controller (Assignment)
+@Controller //added Controller (Assignment) Error #1
 
 public class PetController {
 
     private final PetService petService;
 
-    public PetController(PetService petService) { //added constructor (Assignment)
+    public PetController(PetService petService) { //added constructor (Assignment) Error #2
         this.petService = petService;
     }
 
