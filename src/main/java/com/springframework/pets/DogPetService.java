@@ -1,4 +1,4 @@
-package guru.springframework.sfgdi.services;
+package com.springframework.pets;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  */
 @Profile({"dog", "default"})
 @Service
-public class DogPetService implements PetService{ //Error #5, didn't implement PerService
+public class DogPetService implements PetService { //Error #5, didn't implement PerService
 
     @Override
     public String getPetType(){
