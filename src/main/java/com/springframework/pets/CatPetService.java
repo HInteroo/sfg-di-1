@@ -1,14 +1,9 @@
 package com.springframework.pets;
 
-import com.springframework.pets.PetService;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
-
 /**
  * Created by jt on 12/28/19.
  */
-@Profile("cat") //added a @profile -> @Profile("cat") Error # 3
-@Service        //Deleted @Service("cat") -> @Service Error # 4
+
 public class CatPetService implements PetService {
     @Override
     public String getPetType() {
