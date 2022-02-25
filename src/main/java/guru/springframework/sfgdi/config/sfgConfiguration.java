@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties("guru")
 @Configuration
 public class sfgConfiguration {
-    String username;
-    String password;
-    String jdbcurl;
+    private String username;
+    private String password;
+    private String jdbcurl;
 
     public String getUsername() {
         return username;

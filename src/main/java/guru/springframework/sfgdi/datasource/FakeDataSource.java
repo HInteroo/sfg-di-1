@@ -1,9 +1,9 @@
 package guru.springframework.sfgdi.datasource;
 
 public class FakeDataSource {
-    String username;
-    String password;
-    String jdbcurl;
+    private String username;
+    private String password;
+    private String jdbcurl;
 
     public String getUsername() {
         return username;
