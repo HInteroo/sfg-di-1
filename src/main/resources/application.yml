@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dog,EN
+guru:
+  username: SuperUsername
+  password: dbPassword
+  jdbcurl: SomeUrlforDB
