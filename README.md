@@ -1,10 +1,7 @@
 Assignment 4: Dependency Injection Assignment
 
-- Checkout the starting source branch and correct the errors I've intentionally introduced. In the next video, I will correct the errors.
-
-- Questions for this assignment: The Spring Framework was created by Rod Johnson as an alternative to what framework? 
-
-# JavaEE
+- Checkout the starting source branch and correct the errors I've intentionally introduced.
+- Questions for this assignment: The Spring Framework was created by Rod Johnson as an alternative to what framework? JavaEE
 
 # Dependency Injection Examples
 
